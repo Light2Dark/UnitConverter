@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">DailyCalculator.Droid</string>
+
+  <string-array name="unitsList">
+    <item>kilogram</item>
+    <item>inches</item>
+    <item>centimetre</item>
+    <item>feet</item>
+    <item>pounds(lbs)</item>
+    <item>celsius</item>
+    <item>fahrenheit</item>
+  </string-array>
+
+  <float-array name="coversionConstants">
+    <item>2.2</item> <!--kilogram to pounds-->
+    <item>0.45</item> <!--pounds to kilogram-->
+    <item>2.54</item> <!--inches to centimetre-->
+    <item>0.39</item> <!--centimetre to inches-->
+    <item>0.03</item> <!--centimetre to feet-->
+    <item>12</item> <!--feet to inches-->
+    <item>30.48</item> <!--feet to centimetre-->
+    <item>1.8</item> <!--celsius to farenheit    !!! formula is Celsius * 1.8 + 32 -->
+    <item>1.8</item> <!--farenheit to celsius    !!! formula is (Farenheit - 32) / 1.8 -->
+  </float-array>
+  
+</resources>
